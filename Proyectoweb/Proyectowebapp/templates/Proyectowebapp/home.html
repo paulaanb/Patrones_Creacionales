@@ -1,0 +1,45 @@
+{% extends 'Proyectowebapp/base.html' %}
+{% load static %}
+{% block content %}
+
+
+   <!-- Heading -->
+   <section class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{%static 'Proyectowebapp/img/foto.jpeg'%}" alt="">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4" >
+            <span class="section-heading-upper">Ingredientes de calidad</span>
+            <span class="section-heading-lower">Las mejores pizzas</span>
+          </h2>
+          <p class="mb-3">Disfruta de nuestras deliciosas pizzas.
+          </p>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+    <!-- Message -->
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-upper">Pizzas totalmente caseras</span>
+                <span class="section-heading-lower">Un viaje a Italia garantizado</span>
+              </h2>
+              <p class="mb-0">Pizzeria fundada en 1995, se trata de un negocio familiar donde la receta de la abuela ha ido pasando de generación en generación.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {% endblock %}
+
+
